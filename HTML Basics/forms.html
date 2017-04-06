@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Form
+	</title>
+</head>
+<body>
+
+	<h1>Login</h1>
+
+	<!-- action - where the form send data to -->
+	<!-- method - what HTTP method -->
+
+	<form action="" method="GET">
+		<label for="username">Username</label>
+		<input id="username" type="text" name="username" placeholder="username" required="true">
+		<label for="email">E-mail</label>
+		<input id="email" type="email" name="email" placeholder="email" required="true">
+		<label id="password">Password</label>
+		<input pattern=".{8,32}" id="password" type="password" name="password" placeholder="password" required="true">
+		<input type="color" name="color">
+		<input type="radio" name="radio">
+		<input type="submit" name="Submit">
+	</form>
+
+
+</body>
+</html>
