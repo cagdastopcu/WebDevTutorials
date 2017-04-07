@@ -1,0 +1,48 @@
+/*font-family*/
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Press Start 2P', cursive;*/
+p {
+	/*font-family: Arial;*/
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+}
+h1 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 20px;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+p {
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.5;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
+/*font-size: */
+
+/*font-weight: */

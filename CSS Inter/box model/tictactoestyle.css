@@ -1,0 +1,30 @@
+h1 {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+/*table, td {
+	border: 2px solid black;
+	width: 20%;
+	height: 20%;
+	margin:auto;
+}*/
+td {
+	width: 100px;
+	height: 100px;
+}
+table{
+	margin:auto;
+}
+
+#middletable td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+td:nth-child(2n){
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
